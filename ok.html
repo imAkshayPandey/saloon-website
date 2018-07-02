@@ -1,0 +1,162 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+  <title>Design search Button</title>
+
+
+  <script src="ak.js">   
+  </script>
+
+  <!-- <title>Design search Button</title> -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+
+  <link rel="stylesheet" href="hm.css">
+</head>
+
+<body onload="initialize()">
+  <div class="content"></div>
+
+
+  <!-- <div class="logo"></div> -->
+  <div class="take">
+
+
+    <!-- search form 1 -->
+
+    <div class="form">
+      <form class="form" action="">
+        <input type="search" class="search_1" placeholder="Search" />
+        <button type="submit" class="fa fa-search" value="search">&nbsp;
+        </button>
+      </form>
+   
+    </div>
+    
+
+
+
+   
+    <center>
+      <h1>
+        <p class="md">What you will get here?</p>
+      </h1>
+    </center>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"This company is the best.
+            <br>Here you will get benefits whenever book your hair-cut schedule"
+            <br>
+            <span>Akshay Pandey,CEO,hit me on Comment Box</span>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>"Get discounted upto 15% in your own saloon."
+            <br>
+            <span>Also get 10% wallet cashback</span>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>"Follow the steps to Earn more"
+            <br>
+            <span>money from referring Friends </span>
+          </h4>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="nav">
+        <!-- <ul class="tri">
+          <li>
+            <a href="">
+              <div class="b"></div>
+              <div class="b"></div>
+              <div class="b"></div>
+            </a>
+          </li> -->
+        <!-- </ul> -->
+        <ul class="x">
+            <li>
+          <div class="dropdown">
+            <button class="dropbtn">Book</button>
+            <div class="dropdown-content">
+              <a href="#">Hair-cut</a>
+              <a href="#">Shave</a>
+            </div>
+          </div>
+        </li>
+          <li>
+              <div class="dropdown">
+                <button class="dropbtn">Offer</button>
+                <div class="dropdown-content">
+                  <a href="#">Cashback</a>
+                </div>
+              </div>
+              </li>
+              <li>
+                  <div class="dropdown ">
+                      <button class="dropbtn fa fa-credit-card"></button>
+                      <div class="dropdown-content ">
+                        <a href="#">My Account</a>
+                      </div>
+                    </div>
+              </li>
+              </ul>
+        
+      </div>
+      <div class="column ">
+          <button class="hm  fa fa-map-marker" onclick="getLocation()"> Location</button>
+          <button  class="ok" onclick="getLocation()"><label id="long">Get Location</label></button>
+  
+        </div>
+          <center><div class="tag"><i>Location based search</i></div></center>
+        <div class="reference">
+           <ul class="y">
+             <li>
+                <div class="saloon">Shree Ganesh
+                    <button class="saloon-name"><span class="hey fa fa-star checked"></span></button>
+                    
+                      
+                    </div>
+                  </div>
+             </li>
+           </ul>
+              </div>
+           
+        </div>
+
+  </div>
+
+  <!--  -->
+
+
+
+</body>
+
+</html>
